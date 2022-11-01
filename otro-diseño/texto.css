@@ -1,0 +1,23 @@
+.contenedor-texto{
+    height: 800px;
+}
+h2{
+    font-family: "Montserrat-regular"!important;
+}
+span h4 a{
+    text-decoration: none;
+}
+.texto{
+    font-size:18px;
+    text-align: center;
+    font-family: "Montserrat-regular"!important;
+    line-height:40px;
+}
+.trabajemos{
+    margin-top: 30px;
+    color:#2398ff;
+    font-family: "Montserrat-bold"!important;
+}
+h4 a:hover{
+    color:#66b3f7;
+}

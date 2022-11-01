@@ -1,0 +1,9 @@
+.portada{
+    min-height: 30.29em;
+    width: 100vw;
+    color: #fff;
+    background: linear-gradient(90deg, rgb(9, 79, 140) 0%,  rgba(0, 0, 0) 80%)  ;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+  }
