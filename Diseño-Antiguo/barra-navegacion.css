@@ -1,0 +1,74 @@
+:root{
+    --fondo-nav-var:#a91c4c;
+    --nav-bar-detalles:#671d36;
+    --nav-select:#cb265d;
+    --color-select-letra:#ebdcbf;
+}
+
+.grupo-botones{
+    position: fixed!important;
+top:140px!important;
+border-radius: 0px 30px 30px 0px!important;
+box-shadow:  4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+z-index: 100;
+}
+
+.grupo-botones button{
+    padding: 25px 15px 25px 15px!important;
+    border-radius: 0px!important;
+    background-color:var(--fondo-nav-var);
+    border-bottom: 1px solid var(--nav-bar-detalles);
+}
+
+.grupo-botones button a{
+    text-decoration: none;
+  color: white;
+    font-family: "Open Sans";
+    font-weight: 600;
+   
+}
+
+.grupo-botones button:hover{
+background-color: var(--nav-bar-detalles);
+border: 1px solid var(--nav-bar-detalles);
+}
+
+.grupo-botones button.select{
+    background-color: var(--nav-select);
+}
+
+.grupo-botones button.select a{
+    color:var(--color-select-letra)!important;
+    font-weight: bold!important;
+    letter-spacing: 2px;
+}
+
+.grupo-botones button.select:hover{
+    background-color:var(--nav-select);
+}
+
+@media (max-width: 1100px) {
+    .grupo-botones{
+        top: 110px!important;
+    } 
+    .grupo-botones button{
+        padding: 17px 10px 17px 10px!important;
+    }
+    
+    .grupo-botones button a{
+   font-size: small!important;
+    
+    }
+
+}
+
+@media (max-width: 900px) {
+    .grupo-botones button{
+        padding: 15px 6px 15px 6px!important;
+    }
+    .grupo-botones button a{
+        font-size: 11px!important;
+         
+         }
+        
+        }
